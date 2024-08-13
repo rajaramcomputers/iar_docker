@@ -4,8 +4,8 @@ https://github.com/rajaramcomputers/iar_docker.git
 Try without installation most of the command will work.
 https://killercoda.com/ijikeman/scenario/docker-playground
 or 
-install docker and try
-https://docs.docker.com/engine/install/
+###install docker and try
+###https://docs.docker.com/engine/install/
 ----
 docker image ls
 docker pull hello-world
