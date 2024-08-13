@@ -53,7 +53,7 @@ docker rm -f <container_id>
 ```Dockerfile
 FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/
-~~
+```
 ## Build and Run the Nginx Container
 ```bash
 docker build -t my-nginx-image .
