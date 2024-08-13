@@ -18,8 +18,8 @@ docker pull hello-world
 docker run hello-world
 docker container rm <container_id>
 Working with Alpine Linux
-bash
-Copy code
+```bash
+
 docker pull alpine
 docker run -it alpine
 Common Commands to Try in Alpine Container
@@ -49,6 +49,7 @@ docker rm <container_id>
 docker rm -f <container_id>
 Working with Nginx
 Create a directory named nginx-project, and inside it, create the following files:
+(folder available.. check it)
 
 Dockerfile
 ```Dockerfile
