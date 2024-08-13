@@ -17,7 +17,8 @@ docker image ls
 docker pull hello-world
 docker run hello-world
 docker container rm <container_id>
-Working with Alpine Linux
+
+## Working with Alpine Linux
 ```bash
 
 docker pull alpine
