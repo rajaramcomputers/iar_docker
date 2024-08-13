@@ -17,13 +17,14 @@ docker image ls
 docker pull hello-world
 docker run hello-world
 docker container rm <container_id>
----
+```
 ## Working with Alpine Linux
 ```bash
 
 docker pull alpine
 docker run -it alpine
-Common Commands to Try in Alpine Container
+```
+## Common Commands to Try in Alpine Container
 ```bash
 df
 nano
@@ -32,7 +33,8 @@ apk update
 apk add nano
 nano
 history
-To exit the container without stopping it:
+```
+## To exit the container without stopping it:
 
 ```bash
 
