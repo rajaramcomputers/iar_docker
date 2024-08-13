@@ -71,7 +71,7 @@ docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=mysql@123 -d --network my-netw
 docker exec -it my-mysql mysql -u root -p
 ```
 ## Create a database and table in MySQL:
-```sql
+```bash
 CREATE DATABASE my_database;
 
 USE my_database;
